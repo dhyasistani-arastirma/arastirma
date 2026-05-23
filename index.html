@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DHYAsistanı Araştırma</title>
+    <meta name="description" content="DHYAsistanı verileri üzerine bağımsız akademik araştırmanın bulguları.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <span class="brand-mark">DHY</span>
+                <span class="brand-tail">Araştırma</span>
+            </div>
+            <nav aria-label="Ana navigasyon">
+                <ul class="nav-list">
+                    <li><button class="nav-link is-active" data-panel="home">Ana Sayfa</button></li>
+                    <li><button class="nav-link" data-panel="usage">Kullanım İstatistikleri</button></li>
+                    <li><button class="nav-link" data-panel="calibration">Platformdaki Olasılıklar ve Yerleşme</button></li>
+                    <li><button class="nav-link" data-panel="value">Olasılıkları Bilmek İşe Yarıyor Mu?</button></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="home" class="panel is-active" aria-labelledby="home-h">
+                <h1 id="home-h">Ana Sayfa</h1>
+                <p class="lede">İçerik yakında eklenecek.</p>
+            </section>
+            <section id="usage" class="panel" aria-labelledby="usage-h" hidden>
+                <h1 id="usage-h">Kullanım İstatistikleri</h1>
+                <p class="lede">İçerik yakında eklenecek.</p>
+            </section>
+            <section id="calibration" class="panel" aria-labelledby="calibration-h" hidden>
+                <h1 id="calibration-h">Platformdaki Olasılıklar ve Yerleşme</h1>
+                <p class="lede">İçerik yakında eklenecek.</p>
+            </section>
+            <section id="value" class="panel" aria-labelledby="value-h" hidden>
+                <h1 id="value-h">Olasılıkları Bilmek İşe Yarıyor Mu?</h1>
+                <p class="lede">İçerik yakında eklenecek.</p>
+            </section>
+        </main>
+    </div>
+    <script src="tabs.js"></script>
+</body>
+</html>
